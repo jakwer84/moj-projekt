@@ -1,0 +1,127 @@
+.margin-general, header nav ul, footer .row h6, footer .icon-btn {
+  padding: 0;
+  margin: 0 auto; }
+
+.page-width, header nav.container, section.container, footer {
+  max-width: 1200px;
+  width: 100%; }
+
+.col-1 {
+  width: 8.33333%; }
+
+.col-2 {
+  width: 16.66667%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33333%; }
+
+.col-5 {
+  width: 41.66667%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33333%; }
+
+.col-8 {
+  width: 66.66667%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33333%; }
+
+.col-11 {
+  width: 91.66667%; }
+
+.col-12 {
+  width: 100%; }
+
+.col-offset-1 {
+  margin-left: 9.09091%; }
+
+.col-offset-2 {
+  margin-left: 18.18182%; }
+
+.col-offset-3 {
+  margin-left: 27.27273%; }
+
+.col-offset-4 {
+  margin-left: 36.36364%; }
+
+.col-offset-5 {
+  margin-left: 45.45455%; }
+
+.col-offset-6 {
+  margin-left: 54.54545%; }
+
+.col-offset-7 {
+  margin-left: 63.63636%; }
+
+.col-offset-8 {
+  margin-left: 72.72727%; }
+
+.col-offset-9 {
+  margin-left: 81.81818%; }
+
+.col-offset-10 {
+  margin-left: 90.90909%; }
+
+.col-offset-11 {
+  margin-left: 100%; }
+
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+header {
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5); }
+  header nav.container {
+    margin: 0 auto; }
+  header nav img {
+    padding: 10px 0; }
+  header nav ul {
+    float: right;
+    list-style-type: none; }
+    header nav ul li {
+      display: inline-block; }
+      header nav ul li a {
+        line-height: 50px;
+        display: block;
+        color: #fff;
+        padding: 0 20px;
+        text-decoration: none;
+        text-transform: uppercase; }
+        header nav ul li a:hover, header nav ul li a:focus {
+          background: #ccc; }
+
+h1 {
+    text-align: left;
+    font-size: 20px;
+}
+
+h2 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+    color: crimson; 
+}
+
+.gallery {
+  box-sizing: border-box; }
+  .gallery [class*="col-"] {
+    padding: 0;
+    position: relative; }
+  .gallery img {
+    width: 100%;
+    display:inline-block;
+    height: 300px;
+    object-fit: cover; }
