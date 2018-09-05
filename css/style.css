@@ -119,9 +119,11 @@ h2 {
   box-sizing: border-box; }
   .gallery [class*="col-"] {
     padding: 0;
-    position: relative; }
+    
+    
+}
   .gallery img {
-    width: 100%;
-    display:inline-block;
+    width: 150px;
+    display: inline-grid;
     height: 300px;
     object-fit: cover; }
